@@ -17,7 +17,7 @@ body {
 }
 
 .btn {
-    @apply inline-flex min-w-[150px] px-8 font-medium text-sm rounded-[50px] justify-center items-center duration-200;
+    @apply inline-flex bg-white min-w-[150px] px-8 font-medium text-sm rounded-[50px] justify-center items-center duration-200;
 }
 
 .nav-dropdown-link {
@@ -31,9 +31,13 @@ body {
 
 .heading {
     font-family: "Merriweather", serif;
-    @apply leading-tight;
+    @apply font-bold leading-tight;
 }
 
 .desc {
     @apply text-[#888] leading-[26px];
+}
+
+.icon {
+    @apply w-6 h-6;
 }
