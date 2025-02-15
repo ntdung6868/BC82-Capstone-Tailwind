@@ -4,10 +4,7 @@
 
 body {
     font-family: "Poppins", serif;
-    background-image: url("./assets/images/body-bg.svg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: rgb(250 250 250 / 1);
+    @apply bg-[url('./assets/images/body-bg.svg')] bg-no-repeat bg-cover bg-[#FAFAFA] text-[#222];
 }
 
 .navbar-link {
@@ -20,10 +17,23 @@ body {
 }
 
 .btn {
-    @apply inline-flex min-w-[150px] font-medium text-sm rounded-[50px] justify-center items-center duration-200;
+    @apply inline-flex min-w-[150px] px-8 font-medium text-sm rounded-[50px] justify-center items-center duration-200;
 }
 
 .nav-dropdown-link {
     @apply inline-flex justify-center lg:justify-start mx-[18px] py-2 min-w-36 text-sm font-medium hover:text-[#fe6019] relative after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-0 after:h-0.5 after:bg-[#fe6019]
     after:transition-all after:duration-300 after:ease-in-out hover:after:w-full;
+}
+
+.section {
+    @apply py-16;
+}
+
+.heading {
+    font-family: "Merriweather", serif;
+    @apply leading-tight;
+}
+
+.desc {
+    @apply text-[#888] leading-[26px];
 }
