@@ -4,7 +4,8 @@
 
 body {
     font-family: "Poppins", serif;
-    background-image: url(../src/assets/images/body-bg.svg);
+
+    background-image: url("./assets/images/body-bg.svg");
     background-repeat: no-repeat;
     background-size: cover;
     background-color: rgb(250 250 250 / 1);
