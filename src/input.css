@@ -41,3 +41,11 @@ body {
 .icon {
     @apply w-6 h-6;
 }
+
+.tab-nav-item {
+    @apply flex items-center mt-1 px-4 py-3 rounded min-w-[354px] cursor-pointer;
+}
+
+.tab-nav-item.active {
+    @apply bg-[#fe601966];
+}
