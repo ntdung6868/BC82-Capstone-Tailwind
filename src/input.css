@@ -54,6 +54,11 @@ body {
     background-image: linear-gradient(184.78deg, #fa709a 7.64%, #fee140 120.07%);
 }
 
+.video-play-btn {
+    @apply absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-20 h-20 flex items-center justify-center bg-[#fe6019] rounded-full animate-[shadow-pulse_1.5s_infinite] after:absolute after:content-[''] 
+    after:top-0 after:left-0 after:h-full after:w-full after:rounded-full after:animate-[shadow-pulse-2_1.4s_infinite];
+}
+
 .heading-footer {
     @apply mb-8 font-semibold text-[#222] text-base;
 }
