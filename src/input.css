@@ -59,6 +59,14 @@ body {
     after:top-0 after:left-0 after:h-full after:w-full after:rounded-full after:animate-[shadow-pulse-2_1.4s_infinite];
 }
 
+.review {
+    @apply mt-24 mb-16 rounded-lg bg-white px-3 pt-6 pb-16 text-center shadow-md shadow-black/5 relative;
+}
+
+.review-author-avatar {
+    @apply w-[90px] h-[90px] rounded-full p-[0.125rem] absolute bottom-full left-1/2 -translate-x-1/2 translate-y-1/2;
+}
+
 .heading-footer {
     @apply mb-8 font-semibold text-[#222] text-base;
 }
@@ -69,4 +77,12 @@ body {
 
 .footer-link {
     @apply py-2 hover:text-[#fe6019] hover:underline duration-200;
+}
+
+.reviews .swiper-pagination-bullet {
+    @apply h-[0.875rem] w-[0.875rem] bg-[#8d8d8d];
+}
+
+.reviews .swiper-pagination-bullet-active {
+    @apply bg-[#fe6019];
 }
